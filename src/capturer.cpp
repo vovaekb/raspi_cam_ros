@@ -111,7 +111,7 @@ public:
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv,"test_rpi_cam");
+  ros::init(argc, argv,"raspi_cam_ros");
   ros::NodeHandle n;
   UsbCamNode a(n);
   a.spin();
